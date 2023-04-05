@@ -1,0 +1,358 @@
+/* Estrutura CSS
+    elemento{
+        propriedade: valor;
+    }
+*/
+
+/*--------------PADRÕES--------------*/
+html {
+    background: #73060f;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.site {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*--------------TOPO--------------*/
+
+.topo {
+    background: #080d05;
+}
+
+.topo .site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo nav ul {
+    display: flex;
+    margin: 0;
+}
+
+.topo a h1 {
+    background: url(/media/img/logoFezao.svg);
+    background-size: cover;
+    text-indent: -9999px;
+    width: 192px;
+    height: 110px;
+    margin: 10%;
+}
+
+.topo nav ul li a {
+    color: #f2f2f2;
+    background: #d90718;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 25px;
+    font-weight: 800;
+}
+
+.topo nav ul li a:hover {
+    color: #d90718;
+    background: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 25px;
+    font-weight: 800;
+}
+
+/*--------------BANNER--------------*/
+
+.banner {
+    height: 800px;
+    background: url(/media/img/FICTICIAS/banner.png);
+}
+
+.banner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.banner .site h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px #d90718;
+}
+
+.banner .site a {
+    color: #f2f2f2;
+    background: #d90718;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 1% 6%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.banner .site a:hover {
+    color: #d90718;
+    background: #f2f2f2;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 1% 6%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/*--------------CURSOS--------------*/
+
+/*--------------SOBRE--------------*/
+
+.sobre {
+    padding: 50px 0;
+    color: #f2f2f2;
+}
+
+.sobre h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre .box-sobre {
+    display: flex;
+}
+
+.sobre .text-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 30px 0 0;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sobre a {
+    color: #f2f2f2;
+    background: #d90718;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 2% 6%;
+    border: none;
+}
+
+.sobre a:hover {
+    color: #d90718;
+    background: #f2f2f2;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 2% 6%;
+    border: none;
+}
+
+/*--------------Equipe--------------*/
+
+.equipe {
+    color: #f2f2f2;
+    background: #080d05;
+    padding: 50px 0;
+}
+
+.equipe h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.equipe .box-equipe {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.equipe h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+
+/*--------------SERVIÇOS--------------*/
+
+.servicos {
+    color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.servicos h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.servicos .botao {
+    display: flex;
+    justify-content: center;
+}
+
+.servicos button {
+    color: #f2f2f2;
+    background: #d90718;
+    padding: 1% 3%;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/* HOVER BOTÃO SERVIÇOS
+.servicos button:hover {
+    color: #f2f2f2;
+    background: #080d05;
+    padding: 1% 3%;
+    border-radius: 10px;
+    border-style: none;
+}
+*/
+
+.servicos button a:nth-child(1) {
+    font-weight: 800;
+}
+
+.servicos button a {
+    color: #f2f2f2;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.servicos button a:hover {
+    color: #f2f2f2;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.servicos .line {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.servicos .line h3 {
+    text-align: end;
+    margin: -25px 10px;
+}
+
+.servicos .basicos,
+.estetica,
+.quimica h2 {
+    margin: 25px 0;
+}
+
+/*--------------GALERIA--------------*/
+
+.galeria {
+    background: #080d05;
+    padding: 50px 0;
+}
+
+.galeria h2 {
+    color: #f2f2f2;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.galeria div {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--------------LOCALIZAÇÃO--------------*/
+
+.location {
+    padding: 50px 0;
+    color: #f2f2f2;
+}
+
+.location h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.location .box-location {
+    display: flex;
+}
+
+.location .redes-loc {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.location p {
+    font-size: 20px;
+}
+
+.location .insta-loc,
+.face-loc {
+    display: flex;
+    align-items: center;
+}
+
+.location .redes-loc img {
+    width: 56px;
+    height: 56px;
+}
+
+.location .redes-loc a {
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+/*--------------DIREITOS--------------*/
+
+footer {
+    color: #f2f2f2;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer .direitos {
+    padding: 1%;
+    font-size: 18px;
+    background: #080d05;
+}
+
+footer .desenvolvedor {
+    padding: 1%;
+    font-size: 18px;
+    background: #034c8c;
+    letter-spacing: 5px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #080d05;
+}
