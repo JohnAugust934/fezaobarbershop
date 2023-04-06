@@ -14,6 +14,8 @@
     <!------------------------STYLES CSS------------------------>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <!------------------------LITY------------------------>
+    <link href="/dist/lity.css" rel="stylesheet">
 
     <!------------------------FONTES------------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,9 +38,10 @@
                 <nav>
                     <ul>
                         <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Agendamento</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="https://www.booksy.com/pt-br/83133_fezao-barbershop_cabelo_874135_araraquara"
+                                target="_blank">Agendamento</a></li>
                     </ul>
                 </nav>
             </div>
@@ -79,7 +82,8 @@
                             id volutpat augue. In tempor libero leo. Interdum et.</p>
                         <a href="#">Saiba mais...</a>
                     </div>
-                    <img src="/media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
+                    <a href="/media/img/FICTICIAS/sobre.png" data-lity><img src="/media/img/FICTICIAS/sobre.png"
+                            alt="Sobre Fezão Barbershop"></a>
                 </div>
             </div>
         </section>
@@ -109,92 +113,100 @@
             </div>
         </section>
         <!------------------------SERVIÇOS------------------------>
-        <section class="servicos">
+        <section class="servicos" id="servicos">
             <div class="site">
                 <h2>Serviços</h2>
                 <div class="botao">
-                    <button><a href="#" class="all">Todos</a> - <a href="#">Básicos</a> - <a href="#">Estética</a> - <a
-                            href="#">Química</a> - <a href="#">Exclusivos</a></button>
+                    <button>
+                        <a class="all">Todos</a> -
+                        <a class="basicos">Básicos</a> -
+                        <a class="estetica">Estética</a> -
+                        <a class="quimicas">Químicas</a> -
+                        <a class="exclusivos">Exclusivos</a>
+                    </button>
                 </div>
-                <!------------------------CORTES BÁSICOS------------------------>
-                <div class="basicos">
-                    <h2>Básicos</h2>
-                    <div class="line">
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Corte Fezão Barbershop">
-                            <h3>R$ Corte,00</h3>
+                <div class="todosServicos" id="basicos">
+                    <!------------------------CORTES BÁSICOS------------------------>
+                    <div class="basicos" id="">
+                        <h2>Básicos</h2>
+                        <div class="line">
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Corte Fezão Barbershop">
+                                <h3>R$ Corte,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Barba Fezão Barbershop">
+                                <h3>R$ Barba,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Corte e Barba Fezão Barbershop">
+                                <h3>R$ Corte+Barba,00</h3>
+                            </div>
                         </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Barba Fezão Barbershop">
-                            <h3>R$ Barba,00</h3>
-                        </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Corte e Barba Fezão Barbershop">
-                            <h3>R$ Corte+Barba,00</h3>
-                        </div>
-                    </div>
-                    <!--MEIO-->
-                    <div class="line">
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Sobrancelha Fezão Barbershop">
-                            <h3>R$ Sobrancelha,00</h3>
-                        </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Pezinho Fezão Barbershop">
-                            <h3>R$ Pezinho,00</h3>
-                        </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Raspagem Fezão Barbershop">
-                            <h3>R$ Raspagem,00</h3>
-                        </div>
-                    </div>
-                </div>
-                <!------------------------ESTÉTICOS------------------------>
-                <div class="estetica">
-                    <h2>Estética</h2>
-                    <div class="line">
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Limpeza Facial Fezão Barbershop">
-                            <h3>R$ Limpeza Facial,00</h3>
-                        </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Cone Chinês Fezão Barbershop">
-                            <h3>R$ Cone Chinês,00</h3>
+                        <!--MEIO-->
+                        <div class="line">
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Sobrancelha Fezão Barbershop">
+                                <h3>R$ Sobrancelha,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Pezinho Fezão Barbershop">
+                                <h3>R$ Pezinho,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Raspagem Fezão Barbershop">
+                                <h3>R$ Raspagem,00</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!------------------------QUÍMICAS------------------------>
-                <div class="quimicas">
-                    <h2>Químicas</h2>
-                    <div class="line">
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Platinado Fezão Barbershop">
-                            <h3>R$ Platinado,00</h3>
-                        </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Luzes Fezão Barbershop">
-                            <h3>R$ Luzes,00</h3>
-                        </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Progressiva Fezão Barbershop">
-                            <h3>R$ Progressiva,00</h3>
+                    <!------------------------ESTÉTICOS------------------------>
+                    <div class="estetica" id="">
+                        <h2>Estética</h2>
+                        <div class="line">
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Limpeza Facial Fezão Barbershop">
+                                <h3>R$ Limpeza Facial,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Cone Chinês Fezão Barbershop">
+                                <h3>R$ Cone Chinês,00</h3>
+                            </div>
                         </div>
                     </div>
-                    <!--MEIO-->
-                    <div class="line">
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Alisamento Fezão Barbershop">
-                            <h3>R$ Alisamento,00</h3>
+                    <!------------------------QUÍMICAS------------------------>
+                    <div class="quimicas" id="">
+                        <h2>Químicas</h2>
+                        <div class="line">
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Platinado Fezão Barbershop">
+                                <h3>R$ Platinado,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Luzes Fezão Barbershop">
+                                <h3>R$ Luzes,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Progressiva Fezão Barbershop">
+                                <h3>R$ Progressiva,00</h3>
+                            </div>
                         </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Tintura Fezão Barbershop">
-                            <h3>R$ Tintura,00</h3>
-                        </div>
-                        <div>
-                            <img src="/media/img/FICTICIAS/servicos_base.png" alt="Reflexo Fezão Barbershop">
-                            <h3>R$ Reflexo,00</h3>
+                        <!--MEIO-->
+                        <div class="line">
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Alisamento Fezão Barbershop">
+                                <h3>R$ Alisamento,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Tintura Fezão Barbershop">
+                                <h3>R$ Tintura,00</h3>
+                            </div>
+                            <div>
+                                <img src="/media/img/FICTICIAS/servicos_base.png" alt="Reflexo Fezão Barbershop">
+                                <h3>R$ Reflexo,00</h3>
+                            </div>
                         </div>
                     </div>
+                    <!------------------------EXCLUSIVOS------------------------>
                 </div>
             </div>
         </section>
@@ -212,7 +224,7 @@
             </div>
         </section>
         <!------------------------LOCALIZAÇÃO------------------------>
-        <section class="location">
+        <section class="location" id="contato">
             <div class="site">
                 <h2>Onde estamos</h2>
                 <div class="box-location">
@@ -227,9 +239,9 @@
                             Sábado: 8h às 17h
                         </p>
                         <div class="insta-loc">
-                            <a href="#" target="_blank"><img src="/media/social/instagram.svg"
+                            <a href="#" data-lity><img src="/media/social/instagram.svg"
                                     alt="Instagram Fezão Barbershop"></a>
-                            <a href="#" target="_blank">@fezaobarbershop</a>
+                            <a href="#" data-lity>@fezaobarbershop</a>
                         </div>
                         <div class="face-loc">
                             <a href="#" target="_blank"><img src="/media/social/facebook.svg"
@@ -249,6 +261,19 @@
         <h2 class="desenvolvedor">Desenvolvido por <a href="https://johnaugust934.com.br" target="_blank"> João
                 Augusto</a></h2>
     </footer>
+    <!------------------------WHATSAPP------------------------>
+    <div class="whats-botao">
+        <!--topo <a href="index.html">TOPO</a>-->
+        <a href="https://wa.me/5516996166040?text=Quero%20fazer%20um%20agendamento." target="_blank">WhatsApp</a>
+    </div>
+    <!------------------------SCRIPTS LITY------------------------>
+    <script src="/vendor/jquery.js"></script>
+    <script src="/dist/lity.js"></script>
+    <!------------------------SCRIPT JQUERY------------------------>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!------------------------SCRIPTS------------------------>
+    <script src="/js/anchor.js"></script>
+    <script src="/js/botaoServicos.js"></script>
 </body>
 
 </html>
