@@ -238,6 +238,7 @@ small {
     color: #f2f2f2;
     font-size: 25px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .servicos button a:hover {
