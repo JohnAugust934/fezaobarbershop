@@ -126,7 +126,7 @@ small {
 .sobre h2 {
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .sobre .box-sobre {
@@ -138,7 +138,7 @@ small {
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 30px 0 0;
+    padding: 0 2%;
 }
 
 .sobre p {
@@ -164,6 +164,13 @@ small {
     padding: 2% 6%;
     border: none;
 }
+
+/*--------------PAG SOBRE--------------*/
+
+.line-par h2 {
+    text-align: end;
+}
+
 
 /*--------------Equipe--------------*/
 
@@ -260,7 +267,8 @@ small {
 
 .servicos .basicos,
 .estetica,
-.quimica h2 {
+.quimica,
+.exclusivos h2 {
     margin: 25px 0;
 }
 
@@ -329,6 +337,8 @@ small {
     font-size: 20px;
 }
 
+/*--------------PAG CONTATO--------------*/
+
 .location h3 a {
     color: #f2f2f2;
     background: #d90718;
@@ -362,16 +372,20 @@ footer .direitos {
 footer .desenvolvedor {
     padding: 1%;
     font-size: 18px;
-    background: #034c8c;
     letter-spacing: 5px;
+    background: #034c8c;
 }
 
 footer a {
     color: white;
+    background: #d90718;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 footer a:hover {
     color: #080d05;
+    background: #f2f2f2;
 }
 
 /*--------------BOTÃO WHATSAPP--------------*/
