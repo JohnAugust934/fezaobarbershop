@@ -35,15 +35,15 @@ small {
     background: #080d05;
 }
 
-.topo .site {
+.topo .site nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+
 .topo nav ul {
     display: flex;
-    margin: 0;
 }
 
 .topo a h1 {
@@ -55,23 +55,101 @@ small {
     margin: 10%;
 }
 
-.topo nav ul li a {
+.topo nav .nav-desktop li a {
     color: #f2f2f2;
     background: #d90718;
     padding: 10px 20px;
     border-radius: 10px;
-    margin: 25px;
+    margin: 2vh;
     font-weight: 800;
 }
 
-.topo nav ul li a:hover {
+.topo nav .nav-desktop li a:hover {
     color: #d90718;
     background: #f2f2f2;
     padding: 10px 20px;
     border-radius: 10px;
-    margin: 25px;
+    margin: 2vh;
     font-weight: 800;
 }
+
+/*--------------NOVO TOPO & RESPONSIVO--------------*/
+header {
+    background: #080d05;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo h1 {
+    background: url(/logoFezao.svg) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    width: 160px;
+    height: 90px;
+}
+
+.navbar .links a,
+.drop-navbar a {
+    color: #f2f2f2;
+    background: #d90718;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar .links a:hover,
+.drop-navbar a:hover {
+    color: #d90718;
+    background: #f2f2f2;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+/*--------------Mobile Navbar--------------*/
+
+.drop-navbar {
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.drop-navbar.open {
+    height: 220px;
+}
+
+.drop-navbar li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*--------------BANNER--------------*/
 
@@ -116,7 +194,6 @@ small {
 
 /*--------------CURSOS--------------*/
 
-
 /*--------------SOBRE--------------*/
 
 .sobre {
@@ -146,6 +223,12 @@ small {
     text-align: justify;
     font-size: 20px;
     font-weight: 500;
+}
+
+.sobre img {
+    border-radius: 10px;
+    background: #73060f;
+    box-shadow: 20px 20px 40px #51040b, -20px -20px 40px #960814;
 }
 
 .sobre .text-sobre a {
@@ -311,6 +394,12 @@ small {
     display: flex;
 }
 
+.location .mapa {
+    border-radius: 10px;
+    background: #73060f;
+    box-shadow: 20px 20px 40px #51040b, -20px -20px 40px #960814;
+}
+
 .location .redes-loc {
     padding: 0 20px;
     display: flex;
@@ -434,4 +523,35 @@ footer a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #73060f;
+}
+
+
+/*--------------LAYOUT RESPONSIVO 1024px--------------*/
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .navbar .logo h1 {
+        margin-left: 15px;
+    }
+
+    .navbar .links {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .drop-navbar {
+        display: block;
+    }
+}
+
+@media (max-width: 425px) {
+    .drop-navbar {
+        left: 2rem;
+        width: unset;
+    }
 }
