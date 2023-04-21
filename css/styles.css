@@ -29,8 +29,7 @@ small {
     margin: 0 auto;
 }
 
-/*--------------TOPO--------------*/
-
+/*--------------TOPO ANTIGO
 .topo {
     background: #080d05;
 }
@@ -47,7 +46,7 @@ small {
 }
 
 .topo a h1 {
-    background: url(/media/img/logoFezao.svg);
+    background: url(../media/img/logoFezao.svg);
     background-size: cover;
     text-indent: -9999px;
     width: 192px;
@@ -71,9 +70,9 @@ small {
     border-radius: 10px;
     margin: 2vh;
     font-weight: 800;
-}
+}--------------*/
 
-/*--------------NOVO TOPO & RESPONSIVO--------------*/
+/*--------------NOVO TOPO--------------*/
 header {
     background: #080d05;
 }
@@ -89,7 +88,7 @@ header {
 }
 
 .navbar .logo h1 {
-    background: url(/logoFezao.svg) no-repeat;
+    background: url(../logoFezao.svg) no-repeat;
     background-size: cover;
     text-indent: -9999px;
     width: 160px;
@@ -124,7 +123,7 @@ header {
     display: none;
 }
 
-/*--------------Mobile Navbar--------------*/
+/*--------------MOBILE NAVBAR RESPONSIVO--------------*/
 
 .drop-navbar {
     position: absolute;
@@ -155,7 +154,7 @@ header {
 
 .banner {
     height: 800px;
-    background: url(/media/img/FICTICIAS/banner.png);
+    background: url(../media/img/FICTICIAS/banner.png);
 }
 
 .banner div {
@@ -209,6 +208,10 @@ header {
 
 .sobre .box-sobre {
     display: flex;
+}
+
+.sobre-mobileImg {
+    display: none;
 }
 
 .sobre .text-sobre {
@@ -546,6 +549,62 @@ footer a:hover {
 
     .drop-navbar {
         display: block;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .sobre h2 {
+        margin-left: 2%;
+    }
+
+    .box-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre-mobileImg {
+        display: block;
+        width: 85%;
+    }
+
+    .sobre-deskImg {
+        display: none;
+    }
+
+    .sobre p {
+        margin: 5% 0;
+    }
+
+    .servicos .serv-title {
+        margin-bottom: 5%;
+    }
+
+    .servicos h2 {
+        margin-bottom: 0;
+    }
+
+    .servicos .line {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .servicos .line div {
+        margin: 5% auto;
+    }
+
+    .location .box-location {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location iframe {
+        width: 90%;
+    }
+
+    .location .redes-loc {
+        margin: 5% auto;
     }
 }
 

@@ -2,68 +2,15 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Descubra a melhor experiência em corte de cabelo e barba na Fezão Barbershop! Oferecemos serviços de alta qualidade desde 2016, incluindo cortes modernos, barbas bem-feitas e muito mais. Agende sua visita e descubra por que nossos clientes são tão satisfeitos!">
-    <meta name="keywords" content="Barbearia
-    Corte de cabelo masculino
-    Barba
-    Estilo masculino
-    Cuidados pessoais
-    Beleza masculina
-    Tendências em cortes de cabelo
-    Corte degradê
-    Navalha
-    Corte clássico
-    Barba desenhada
-    Pomada para cabelo
-    Produtos para barba
-    Atendimento personalizado
-    Ambiente descontraído
-    Experiência única
-    Tradição e qualidade
-    Especialistas em cuidados masculinos
-    Barbeiros profissionais">
-
-    <title>Fezão Barbershop</title>
-    <link rel="shortcut icon" href="/logoFezao.svg" type="image/x-icon">
-
-    <!------------------------FONTES------------------------>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <!------------------------STYLES CSS------------------------>
-    <link rel="stylesheet" href="./css/reset.css">
-
-    <link rel="stylesheet" href="./css/styles.css">
+    <!------------------------HEAD DO SITE------------------------>
+    <?php require 'conteudo/head.php' ?>
 </head>
 
 <body>
     <!------------------------TOPO MENU------------------------>
-    <header>
-        <div class="topo">
-            <!------------------------MENU------------------------>
-            <div class="site">
-                <nav>
-                    <a href="index.html">
-                        <h1>Fezão Barbershop</h1>
-                    </a>
-                    <ul class="nav-desktop">
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="index.html#servicos">Serviços</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                        <li><a href="https://www.booksy.com/pt-br/83133_fezao-barbershop_cabelo_874135_araraquara"
-                                target="_blank">Agendamento</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+
+    <?php require 'conteudo/topo.php' ?>
+
     <!------------------------CORPO DO SITE------------------------>
     <main>
         <!------------------------TIMELINE SOBRE------------------------>
@@ -92,8 +39,8 @@
                                 Donec
                                 id volutpat augue. In tempor libero leo. Interdum et.</p>
                         </div>
-                        <a href="/media/img/FICTICIAS/sobre.png" data-lity>
-                            <img src="/media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
+                        <a href="media/img/FICTICIAS/sobre.png" data-lity>
+                            <img src="media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
                         </a>
                     </div>
                 </div>
@@ -101,8 +48,8 @@
                 <div class="line-par">
                     <h2>2013</h2>
                     <div class="box-sobre">
-                        <a href="/media/img/FICTICIAS/sobre.png" data-lity>
-                            <img src="/media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
+                        <a href="media/img/FICTICIAS/sobre.png" data-lity>
+                            <img src="media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
                         </a>
                         <div class="text-sobre">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum consequat
@@ -148,8 +95,8 @@
                                 Donec
                                 id volutpat augue. In tempor libero leo. Interdum et.</p>
                         </div>
-                        <a href="/media/img/FICTICIAS/sobre.png" data-lity>
-                            <img src="/media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
+                        <a href="media/img/FICTICIAS/sobre.png" data-lity>
+                            <img src="media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
                         </a>
                     </div>
                 </div>
@@ -157,8 +104,8 @@
                 <div class="line-par">
                     <h2>2015</h2>
                     <div class="box-sobre">
-                        <a href="/media/img/FICTICIAS/sobre.png" data-lity>
-                            <img src="/media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
+                        <a href="media/img/FICTICIAS/sobre.png" data-lity>
+                            <img src="media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
                         </a>
                         <div class="text-sobre">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum consequat
@@ -204,8 +151,8 @@
                                 Donec
                                 id volutpat augue. In tempor libero leo. Interdum et.</p>
                         </div>
-                        <a href="/media/img/FICTICIAS/sobre.png" data-lity>
-                            <img src="/media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
+                        <a href="media/img/FICTICIAS/sobre.png" data-lity>
+                            <img src="media/img/FICTICIAS/sobre.png" alt="Sobre Fezão Barbershop">
                         </a>
                     </div>
                 </div>
@@ -217,12 +164,12 @@
                 <h2>Equipe</h2>
                 <div class="box-equipe">
                     <div class="equipes">
-                        <img src="/media/img/FICTICIAS/equipe2.png" alt="Equipe Fezão Barbershop">
+                        <img src="media/img/FICTICIAS/equipe2.png" alt="Equipe Fezão Barbershop">
                         <h3>Felipe</h3>
                         <small>Líder</small>
                     </div>
                     <div class="equipes">
-                        <img src="/media/img/FICTICIAS/equipe1.png" alt="Equipe Fezão Barbershop">
+                        <img src="media/img/FICTICIAS/equipe1.png" alt="Equipe Fezão Barbershop">
                         <h3>Alexandre</h3>
                         <small>Barbeiro</small>
                     </div>
@@ -241,10 +188,7 @@
             <div class="site">
                 <h2>Nossos contatos e onde estamos</h2>
                 <div class="box-location">
-                    <iframe class="mapa"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.0517270033483!2d-48.16312907016043!3d-21.778258957969506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f73c78d07bef%3A0x3a5dc04063c9d2c5!2sFez%C3%A3o%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1680531868405!5m2!1spt-BR!2sbr"
-                        width="600" height="338" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.0517270033483!2d-48.16312907016043!3d-21.778258957969506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f73c78d07bef%3A0x3a5dc04063c9d2c5!2sFez%C3%A3o%20Barber%20Shop!5e0!3m2!1spt-BR!2sbr!4v1680531868405!5m2!1spt-BR!2sbr" width="600" height="338" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div class="redes-loc">
                         <p>
                             Horários de funcionamento: <br>
@@ -254,17 +198,16 @@
                         <!--INSTAGRAM-->
                         <div class="insta-loc">
                             <a href="https://www.instagram.com/fezaobarbershop/" target="_blank">
-                                <img src="/media/social/instagram.svg" alt="Instagram Fezão Barbershop">
+                                <img src="media/social/instagram.svg" alt="Instagram Fezão Barbershop">
                             </a>
                             <a href="https://www.instagram.com/fezaobarbershop/" target="_blank">@fezaobarbershop</a>
                         </div>
                         <!--FACEBOOK-->
                         <div class="face-loc">
                             <a href="https://www.facebook.com/fezaobarbershop/?locale=pt_BR" target="_blank">
-                                <img src="/media/social/facebook.svg" alt="Facebook Fezão Barbershop">
+                                <img src="media/social/facebook.svg" alt="Facebook Fezão Barbershop">
                             </a>
-                            <a href="https://www.facebook.com/fezaobarbershop/?locale=pt_BR"
-                                target="_blank">@fezaobarbershop</a>
+                            <a href="https://www.facebook.com/fezaobarbershop/?locale=pt_BR" target="_blank">@fezaobarbershop</a>
                         </div>
                         <p>Av. dos Ferroviários, 565 - Vila Xavier</p>
                     </div>
@@ -288,7 +231,8 @@
     <!------------------------SCRIPT JQUERY------------------------>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!------------------------SCRIPTS------------------------>
-    <script src="/js/anchor.js"></script>
+    <script src="js/anchor.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
