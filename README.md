@@ -23,6 +23,15 @@ A web page da Fezão Barbershop é uma ferramenta essencial para a barbearia se 
 ## Link
 
  - [Fezão Barbershop - Since 2016](https://fezaobarbershop.johnaugust934.com.br/)
+## Autores
+
+- [@JohnAugust934](https://github.com/JohnAugust934)
+
+
 ## Screenshots
 
 ![App Screenshot](https://fezaobarbershop.johnaugust934.com.br/media/img/layoutFezao.png)
+
+## Suporte
+
+Para suporte, mande um email para contato@johnaugust934.com.br.
