@@ -22,7 +22,7 @@ A web page da Fezão Barbershop é uma ferramenta essencial para a barbearia se 
 
 ## Link
 
- - [Fezão Barbershop - Since 2016](https://fezaobarbershop.johnaugust934.com.br/)
+ - [Fezão Barbershop - Since 2016](https://fezao.on3digital.com.br/)
 ## Autores
 
 - [@JohnAugust934](https://github.com/JohnAugust934)
